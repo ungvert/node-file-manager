@@ -7,10 +7,10 @@ import { osCommands } from "./commands/os.js";
 import { hashCommands } from "./commands/hash.js";
 import { compressCommands } from "./commands/compress.js";
 
-import { parseCommandAndArguments } from "./parse.js";
-import { runCommand } from "./runCommand.js";
-import { messages } from "./messages.js";
-import { color } from "./log.js";
+import { parseCommandAndArguments } from "./common/parse.js";
+import { runCommand } from "./common/runCommand.js";
+import { messages } from "./common/messages.js";
+import { color } from "./common/log.js";
 
 const rl = readline.createInterface({
   input: process.stdin,

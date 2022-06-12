@@ -1,6 +1,6 @@
 import { EOL, cpus, homedir, userInfo, arch } from "os";
 
-import { runCommand } from "../runCommand.js";
+import { runCommand } from "../common/runCommand.js";
 
 const osSubCommands = {
   EOL: () => {

@@ -2,8 +2,8 @@ import { createReadStream } from "fs";
 import { createHash } from "crypto";
 import { pipeline } from "stream/promises";
 
-import { resolvePaths } from "../resolvePaths.js";
-import { writeStdoutAndFinish } from "../stream.js";
+import { resolvePaths } from "../common/resolvePaths.js";
+import { writeStdoutAndFinish } from "../common/stream.js";
 
 export const hashCommands = {
   hash: async (parameters) => {

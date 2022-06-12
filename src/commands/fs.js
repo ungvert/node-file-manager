@@ -2,8 +2,8 @@ import { createReadStream, createWriteStream } from "fs";
 import { stat, unlink, rename, open } from "fs/promises";
 import { pipeline } from "stream/promises";
 
-import { resolvePaths } from "../resolvePaths.js";
-import { writeStdoutAndFinish } from "../stream.js";
+import { resolvePaths } from "../common/resolvePaths.js";
+import { writeStdoutAndFinish } from "../common/stream.js";
 
 export const fileCommands = {
   cat: async (parameters) => {

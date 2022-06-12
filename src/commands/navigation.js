@@ -3,7 +3,7 @@ import { resolve } from "path";
 import { stat, readdir } from "fs/promises";
 import { chdir, cwd } from "process";
 
-import { resolvePaths } from "../resolvePaths.js";
+import { resolvePaths } from "../common/resolvePaths.js";
 
 chdir(homedir());
 export const navigationCommands = {
