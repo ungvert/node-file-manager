@@ -9,7 +9,7 @@ const osSubCommands = {
   cpus: () => {
     return cpus().map(({ model, speed }) => ({
       model,
-      speed: speed / (speed < 100 ? 10 : 1000), //In Ghz. 10 - for Apple CPUs
+      speed: speed / 1000,
     }));
   },
   homedir: () => {
