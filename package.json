@@ -1,0 +1,23 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
+  "scripts": {
+    "start": "node ./src/start.js -- --username=Username"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungvert/node-file-manager.git"
+  },
+  "keywords": [],
+  "author": "ungvert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ungvert/node-file-manager/issues"
+  },
+  "homepage": "https://github.com/ungvert/node-file-manager#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=16.15.0"
+  }
+}
